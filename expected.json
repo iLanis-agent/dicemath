@@ -411,7 +411,7 @@
    "6",
    "6"
   ],
-  "expected": "With a 1 in 6 chance on each try, 6 tries give at least one success 66.51% of the time and none 33.49% of the time. The first number of tries that reaches 50% is 4 (51.77%)."
+  "expected": "With a 1 in 6 chance on each try, over 6 tries at least one success comes up 66.51% of the time and none 33.49% of the time. The first number of tries that reaches 50% is 4 (51.77%)."
  },
  {
   "fn": "streakTruth",
@@ -419,7 +419,7 @@
    "6",
    "1"
   ],
-  "expected": "With a 1 in 6 chance on each try, 1 try give at least one success 16.67% of the time and none 83.33% of the time. The first number of tries that reaches 50% is 4 (51.77%)."
+  "expected": "With a 1 in 6 chance on each try, over 1 try at least one success comes up 16.67% of the time and none 83.33% of the time. The first number of tries that reaches 50% is 4 (51.77%)."
  },
  {
   "fn": "streakTruth",
@@ -427,7 +427,7 @@
    "2",
    "1"
   ],
-  "expected": "With a 1 in 2 chance on each try, 1 try give at least one success 50.00% of the time and none 50.00% of the time. The first number of tries that reaches 50% is 1 (50.00%)."
+  "expected": "With a 1 in 2 chance on each try, over 1 try at least one success comes up 50.00% of the time and none 50.00% of the time. The first number of tries that reaches 50% is 1 (50.00%)."
  },
  {
   "fn": "streakTruth",
@@ -435,7 +435,7 @@
    "2",
    "10"
   ],
-  "expected": "With a 1 in 2 chance on each try, 10 tries give at least one success 99.90% of the time and none 0.10% of the time. The first number of tries that reaches 50% is 1 (50.00%)."
+  "expected": "With a 1 in 2 chance on each try, over 10 tries at least one success comes up 99.90% of the time and none 0.10% of the time. The first number of tries that reaches 50% is 1 (50.00%)."
  },
  {
   "fn": "streakTruth",
@@ -443,7 +443,7 @@
    "100",
    "100"
   ],
-  "expected": "With a 1 in 100 chance on each try, 100 tries give at least one success 63.40% of the time and none 36.60% of the time. The first number of tries that reaches 50% is 69 (50.02%)."
+  "expected": "With a 1 in 100 chance on each try, over 100 tries at least one success comes up 63.40% of the time and none 36.60% of the time. The first number of tries that reaches 50% is 69 (50.02%)."
  },
  {
   "fn": "streakTruth",
@@ -451,7 +451,7 @@
    "1000",
    "1000"
   ],
-  "expected": "With a 1 in 1000 chance on each try, 1000 tries give at least one success 63.23% of the time and none 36.77% of the time. The first number of tries that reaches 50% is 693 (50.01%)."
+  "expected": "With a 1 in 1000 chance on each try, over 1000 tries at least one success comes up 63.23% of the time and none 36.77% of the time. The first number of tries that reaches 50% is 693 (50.01%)."
  },
  {
   "fn": "streakTruth",
@@ -459,7 +459,7 @@
    "1000",
    "1"
   ],
-  "expected": "With a 1 in 1000 chance on each try, 1 try give at least one success 0.10% of the time and none 99.90% of the time. The first number of tries that reaches 50% is 693 (50.01%)."
+  "expected": "With a 1 in 1000 chance on each try, over 1 try at least one success comes up 0.10% of the time and none 99.90% of the time. The first number of tries that reaches 50% is 693 (50.01%)."
  },
  {
   "fn": "streakTruth",
@@ -467,7 +467,7 @@
    "20",
    "20"
   ],
-  "expected": "With a 1 in 20 chance on each try, 20 tries give at least one success 64.15% of the time and none 35.85% of the time. The first number of tries that reaches 50% is 14 (51.23%)."
+  "expected": "With a 1 in 20 chance on each try, over 20 tries at least one success comes up 64.15% of the time and none 35.85% of the time. The first number of tries that reaches 50% is 14 (51.23%)."
  },
  {
   "fn": "streakTruth",
@@ -475,7 +475,7 @@
    "36",
    "36"
   ],
-  "expected": "With a 1 in 36 chance on each try, 36 tries give at least one success 63.73% of the time and none 36.27% of the time. The first number of tries that reaches 50% is 25 (50.55%)."
+  "expected": "With a 1 in 36 chance on each try, over 36 tries at least one success comes up 63.73% of the time and none 36.27% of the time. The first number of tries that reaches 50% is 25 (50.55%)."
  },
  {
   "fn": "streakTruth",
@@ -483,7 +483,7 @@
    "3",
    "3"
   ],
-  "expected": "With a 1 in 3 chance on each try, 3 tries give at least one success 70.37% of the time and none 29.63% of the time. The first number of tries that reaches 50% is 2 (55.56%)."
+  "expected": "With a 1 in 3 chance on each try, over 3 tries at least one success comes up 70.37% of the time and none 29.63% of the time. The first number of tries that reaches 50% is 2 (55.56%)."
  },
  {
   "fn": "streakTruth",
@@ -491,7 +491,7 @@
    "10",
    "7"
   ],
-  "expected": "With a 1 in 10 chance on each try, 7 tries give at least one success 52.17% of the time and none 47.83% of the time. The first number of tries that reaches 50% is 7 (52.17%)."
+  "expected": "With a 1 in 10 chance on each try, over 7 tries at least one success comes up 52.17% of the time and none 47.83% of the time. The first number of tries that reaches 50% is 7 (52.17%)."
  },
  {
   "fn": "streakTruth",
@@ -499,7 +499,7 @@
    "52",
    "26"
   ],
-  "expected": "With a 1 in 52 chance on each try, 26 tries give at least one success 39.64% of the time and none 60.36% of the time. The first number of tries that reaches 50% is 36 (50.29%)."
+  "expected": "With a 1 in 52 chance on each try, over 26 tries at least one success comes up 39.64% of the time and none 60.36% of the time. The first number of tries that reaches 50% is 36 (50.29%)."
  },
  {
   "fn": "streakTruth",
@@ -563,6 +563,6 @@
    "500",
    "350"
   ],
-  "expected": "With a 1 in 500 chance on each try, 350 tries give at least one success 50.38% of the time and none 49.62% of the time. The first number of tries that reaches 50% is 347 (50.08%)."
+  "expected": "With a 1 in 500 chance on each try, over 350 tries at least one success comes up 50.38% of the time and none 49.62% of the time. The first number of tries that reaches 50% is 347 (50.08%)."
  }
 ]
