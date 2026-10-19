@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dice Math - fair dice probability arithmetic</title>
+<style>
+  :root { --accent:#1d7a74; --ink:#0a2624; --paper:#eef8f6; --soft:#d3ede9; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#4c8a84; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dice Math</h1>
+  <p class="lede">A 1 in 6 chance tried 6 times gives at least one success only 66.51% of the time.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Dice Math counts the outcomes of perfectly fair, independent dice and tries. It does not know whether any real die, game or machine is fair, and it says nothing about odds you are offered or about whether to play. Every figure is your own entry.
+  </div>
+  <section>
+    <h2>The sum truth</h2>
+    <p>Rolling 3 dice with 6 sides each, a total of exactly 10 comes up in 27 of 216 equally likely rolls (12.50%), and a total of 10 or more in 135 (62.50%).</p>
+  </section>
+  <section>
+    <h2>The edge truth</h2>
+    <p>On one die with 20 sides, needing 15 or higher succeeds 30.00% of the time with a single roll, 51.00% with advantage (roll two, keep the higher) and 9.00% with disadvantage (roll two, keep the lower).</p>
+  </section>
+  <section>
+    <h2>The streak truth</h2>
+    <p>With a 1 in 6 chance on each try, 6 tries give at least one success 66.51% of the time and none 33.49% of the time. The first number of tries that reaches 50% is 4 (51.77%).</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Dice Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
