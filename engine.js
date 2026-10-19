@@ -56,6 +56,6 @@ function streakTruth(x, tries) {
   var one = all - none;
   var m = 0, nn = 1n, dd = 1n;
   while (true) { m++; nn *= bx - 1n; dd *= bx; if (2n * (dd - nn) >= dd) break; }
-  return "With a 1 in " + X + " chance on each try, " + _tries(n) + " give at least one success " + _pc(one, all) + " of the time and none " + _pc(none, all) +
+  return "With a 1 in " + X + " chance on each try, over " + _tries(n) + " at least one success comes up " + _pc(one, all) + " of the time and none " + _pc(none, all) +
     " of the time. The first number of tries that reaches 50% is " + m + " (" + _pc(dd - nn, dd) + ").";
 }
