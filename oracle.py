@@ -60,7 +60,7 @@ def streak_truth(xx, tries):
     none = q ** n
     m = 1
     while (x - 1) ** m * 2 > x ** m: m += 1
-    return (f"With a 1 in {x} chance on each try, {tries_word(n)} give at least one success {_two((1 - none) * 100)} of the time and none {_two(none * 100)} "
+    return (f"With a 1 in {x} chance on each try, over {tries_word(n)} at least one success comes up {_two((1 - none) * 100)} of the time and none {_two(none * 100)} "
             f"of the time. The first number of tries that reaches 50% is {m} ({_two((1 - q ** m) * 100)}).")
 
 FNS = {"sumTruth": sum_truth, "edgeTruth": edge_truth, "streakTruth": streak_truth}
