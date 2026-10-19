@@ -1,0 +1,568 @@
+[
+ {
+  "fn": "sumTruth",
+  "args": [
+   "3",
+   "6",
+   "10"
+  ],
+  "expected": "Rolling 3 dice with 6 sides each, a total of exactly 10 comes up in 27 of 216 equally likely rolls (12.50%), and a total of 10 or more in 135 (62.50%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   "7"
+  ],
+  "expected": "Rolling 2 dice with 6 sides each, a total of exactly 7 comes up in 6 of 36 equally likely rolls (16.67%), and a total of 7 or more in 21 (58.33%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   "2"
+  ],
+  "expected": "Rolling 2 dice with 6 sides each, a total of exactly 2 comes up in 1 of 36 equally likely rolls (2.78%), and a total of 2 or more in 36 (100.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   "12"
+  ],
+  "expected": "Rolling 2 dice with 6 sides each, a total of exactly 12 comes up in 1 of 36 equally likely rolls (2.78%), and a total of 12 or more in 1 (2.78%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "1",
+   "6",
+   "4"
+  ],
+  "expected": "Rolling 1 die with 6 sides each, a total of exactly 4 comes up in 1 of 6 equally likely rolls (16.67%), and a total of 4 or more in 3 (50.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "1",
+   "20",
+   "20"
+  ],
+  "expected": "Rolling 1 die with 20 sides each, a total of exactly 20 comes up in 1 of 20 equally likely rolls (5.00%), and a total of 20 or more in 1 (5.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "1",
+   "2",
+   "1"
+  ],
+  "expected": "Rolling 1 die with 2 sides each, a total of exactly 1 comes up in 1 of 2 equally likely rolls (50.00%), and a total of 1 or more in 2 (100.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "3",
+   "6",
+   "3"
+  ],
+  "expected": "Rolling 3 dice with 6 sides each, a total of exactly 3 comes up in 1 of 216 equally likely rolls (0.46%), and a total of 3 or more in 216 (100.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "3",
+   "6",
+   "18"
+  ],
+  "expected": "Rolling 3 dice with 6 sides each, a total of exactly 18 comes up in 1 of 216 equally likely rolls (0.46%), and a total of 18 or more in 1 (0.46%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "4",
+   "6",
+   "14"
+  ],
+  "expected": "Rolling 4 dice with 6 sides each, a total of exactly 14 comes up in 146 of 1296 equally likely rolls (11.27%), and a total of 14 or more in 721 (55.63%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "20",
+   "21"
+  ],
+  "expected": "Rolling 2 dice with 20 sides each, a total of exactly 21 comes up in 20 of 400 equally likely rolls (5.00%), and a total of 21 or more in 210 (52.50%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "5",
+   "10",
+   "27"
+  ],
+  "expected": "Rolling 5 dice with 10 sides each, a total of exactly 27 comes up in 6000 of 100000 equally likely rolls (6.00%), and a total of 27 or more in 56000 (56.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "10",
+   "100",
+   "505"
+  ],
+  "expected": "Rolling 10 dice with 100 sides each, a total of exactly 505 comes up in 430438025018576400 of 100000000000000000000 equally likely rolls (0.43%), and a total of 505 or more in 50215219012509288200 (50.22%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "10",
+   "100",
+   "10"
+  ],
+  "expected": "Rolling 10 dice with 100 sides each, a total of exactly 10 comes up in 1 of 100000000000000000000 equally likely rolls (0.00%), and a total of 10 or more in 100000000000000000000 (100.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "10",
+   "100",
+   "1000"
+  ],
+  "expected": "Rolling 10 dice with 100 sides each, a total of exactly 1000 comes up in 1 of 100000000000000000000 equally likely rolls (0.00%), and a total of 1000 or more in 1 (0.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "6",
+   "8",
+   "27"
+  ],
+  "expected": "Rolling 6 dice with 8 sides each, a total of exactly 27 comes up in 18152 of 262144 equally likely rolls (6.92%), and a total of 27 or more in 140148 (53.46%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "7",
+   "4",
+   "18"
+  ],
+  "expected": "Rolling 7 dice with 4 sides each, a total of exactly 18 comes up in 2128 of 16384 equally likely rolls (12.99%), and a total of 18 or more in 8192 (50.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "10",
+   "2",
+   "5"
+  ],
+  "expected": "ERR:target must be a whole number from 10 to 20"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "3",
+   "12",
+   "20"
+  ],
+  "expected": "Rolling 3 dice with 12 sides each, a total of exactly 20 comes up in 108 of 1728 equally likely rolls (6.25%), and a total of 20 or more in 864 (50.00%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   " 2 ",
+   " 6 ",
+   " 8 "
+  ],
+  "expected": "Rolling 2 dice with 6 sides each, a total of exactly 8 comes up in 5 of 36 equally likely rolls (13.89%), and a total of 8 or more in 15 (41.67%)."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "0",
+   "6",
+   "3"
+  ],
+  "expected": "ERR:dice must be a whole number from 1 to 10"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "11",
+   "6",
+   "30"
+  ],
+  "expected": "ERR:dice must be a whole number from 1 to 10"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "1",
+   "2"
+  ],
+  "expected": "ERR:sides must be a whole number from 2 to 100"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "101",
+   "5"
+  ],
+  "expected": "ERR:sides must be a whole number from 2 to 100"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   "1"
+  ],
+  "expected": "ERR:target must be a whole number from 2 to 12"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   "13"
+  ],
+  "expected": "ERR:target must be a whole number from 2 to 12"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   "x"
+  ],
+  "expected": "ERR:target must be a whole number from 2 to 12"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   ""
+  ],
+  "expected": "ERR:target must be a whole number from 2 to 12"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "1.5",
+   "6",
+   "3"
+  ],
+  "expected": "ERR:dice must be a whole number from 1 to 10"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   "2",
+   "6",
+   "-3"
+  ],
+  "expected": "ERR:target must be a whole number from 2 to 12"
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "20",
+   "15"
+  ],
+  "expected": "On one die with 20 sides, needing 15 or higher succeeds 30.00% of the time with a single roll, 51.00% with advantage (roll two, keep the higher) and 9.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "20",
+   "1"
+  ],
+  "expected": "On one die with 20 sides, needing 1 or higher succeeds 100.00% of the time with a single roll, 100.00% with advantage (roll two, keep the higher) and 100.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "20",
+   "20"
+  ],
+  "expected": "On one die with 20 sides, needing 20 or higher succeeds 5.00% of the time with a single roll, 9.75% with advantage (roll two, keep the higher) and 0.25% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "6",
+   "4"
+  ],
+  "expected": "On one die with 6 sides, needing 4 or higher succeeds 50.00% of the time with a single roll, 75.00% with advantage (roll two, keep the higher) and 25.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "6",
+   "6"
+  ],
+  "expected": "On one die with 6 sides, needing 6 or higher succeeds 16.67% of the time with a single roll, 30.56% with advantage (roll two, keep the higher) and 2.78% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "2",
+   "2"
+  ],
+  "expected": "On one die with 2 sides, needing 2 or higher succeeds 50.00% of the time with a single roll, 75.00% with advantage (roll two, keep the higher) and 25.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "100",
+   "51"
+  ],
+  "expected": "On one die with 100 sides, needing 51 or higher succeeds 50.00% of the time with a single roll, 75.00% with advantage (roll two, keep the higher) and 25.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "10",
+   "10"
+  ],
+  "expected": "On one die with 10 sides, needing 10 or higher succeeds 10.00% of the time with a single roll, 19.00% with advantage (roll two, keep the higher) and 1.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "12",
+   "7"
+  ],
+  "expected": "On one die with 12 sides, needing 7 or higher succeeds 50.00% of the time with a single roll, 75.00% with advantage (roll two, keep the higher) and 25.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "8",
+   "5"
+  ],
+  "expected": "On one die with 8 sides, needing 5 or higher succeeds 50.00% of the time with a single roll, 75.00% with advantage (roll two, keep the higher) and 25.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "20",
+   "11"
+  ],
+  "expected": "On one die with 20 sides, needing 11 or higher succeeds 50.00% of the time with a single roll, 75.00% with advantage (roll two, keep the higher) and 25.00% with disadvantage (roll two, keep the lower)."
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "20",
+   "0"
+  ],
+  "expected": "ERR:target must be a whole number from 1 to 20"
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "20",
+   "21"
+  ],
+  "expected": "ERR:target must be a whole number from 1 to 20"
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "1",
+   "1"
+  ],
+  "expected": "ERR:sides must be a whole number from 2 to 100"
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "101",
+   "5"
+  ],
+  "expected": "ERR:sides must be a whole number from 2 to 100"
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "x",
+   "5"
+  ],
+  "expected": "ERR:sides must be a whole number from 2 to 100"
+ },
+ {
+  "fn": "edgeTruth",
+  "args": [
+   "20",
+   "2.5"
+  ],
+  "expected": "ERR:target must be a whole number from 1 to 20"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "6",
+   "6"
+  ],
+  "expected": "With a 1 in 6 chance on each try, 6 tries give at least one success 66.51% of the time and none 33.49% of the time. The first number of tries that reaches 50% is 4 (51.77%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "6",
+   "1"
+  ],
+  "expected": "With a 1 in 6 chance on each try, 1 try give at least one success 16.67% of the time and none 83.33% of the time. The first number of tries that reaches 50% is 4 (51.77%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "2",
+   "1"
+  ],
+  "expected": "With a 1 in 2 chance on each try, 1 try give at least one success 50.00% of the time and none 50.00% of the time. The first number of tries that reaches 50% is 1 (50.00%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "2",
+   "10"
+  ],
+  "expected": "With a 1 in 2 chance on each try, 10 tries give at least one success 99.90% of the time and none 0.10% of the time. The first number of tries that reaches 50% is 1 (50.00%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "100",
+   "100"
+  ],
+  "expected": "With a 1 in 100 chance on each try, 100 tries give at least one success 63.40% of the time and none 36.60% of the time. The first number of tries that reaches 50% is 69 (50.02%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "1000",
+   "1000"
+  ],
+  "expected": "With a 1 in 1000 chance on each try, 1000 tries give at least one success 63.23% of the time and none 36.77% of the time. The first number of tries that reaches 50% is 693 (50.01%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "1000",
+   "1"
+  ],
+  "expected": "With a 1 in 1000 chance on each try, 1 try give at least one success 0.10% of the time and none 99.90% of the time. The first number of tries that reaches 50% is 693 (50.01%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "20",
+   "20"
+  ],
+  "expected": "With a 1 in 20 chance on each try, 20 tries give at least one success 64.15% of the time and none 35.85% of the time. The first number of tries that reaches 50% is 14 (51.23%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "36",
+   "36"
+  ],
+  "expected": "With a 1 in 36 chance on each try, 36 tries give at least one success 63.73% of the time and none 36.27% of the time. The first number of tries that reaches 50% is 25 (50.55%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "3",
+   "3"
+  ],
+  "expected": "With a 1 in 3 chance on each try, 3 tries give at least one success 70.37% of the time and none 29.63% of the time. The first number of tries that reaches 50% is 2 (55.56%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "10",
+   "7"
+  ],
+  "expected": "With a 1 in 10 chance on each try, 7 tries give at least one success 52.17% of the time and none 47.83% of the time. The first number of tries that reaches 50% is 7 (52.17%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "52",
+   "26"
+  ],
+  "expected": "With a 1 in 52 chance on each try, 26 tries give at least one success 39.64% of the time and none 60.36% of the time. The first number of tries that reaches 50% is 36 (50.29%)."
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "1",
+   "5"
+  ],
+  "expected": "ERR:the chance must be written as 1 in X, with X a whole number from 2 to 1000"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "1001",
+   "5"
+  ],
+  "expected": "ERR:the chance must be written as 1 in X, with X a whole number from 2 to 1000"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "6",
+   "0"
+  ],
+  "expected": "ERR:tries must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "6",
+   "1001"
+  ],
+  "expected": "ERR:tries must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "abc",
+   "5"
+  ],
+  "expected": "ERR:the chance must be written as 1 in X, with X a whole number from 2 to 1000"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "6",
+   "abc"
+  ],
+  "expected": "ERR:tries must be a whole number from 1 to 1000"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "",
+   ""
+  ],
+  "expected": "ERR:the chance must be written as 1 in X, with X a whole number from 2 to 1000"
+ },
+ {
+  "fn": "streakTruth",
+  "args": [
+   "500",
+   "350"
+  ],
+  "expected": "With a 1 in 500 chance on each try, 350 tries give at least one success 50.38% of the time and none 49.62% of the time. The first number of tries that reaches 50% is 347 (50.08%)."
+ }
+]
